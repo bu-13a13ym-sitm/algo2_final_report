@@ -3,3 +3,4 @@ account.py
 *.docx
 *.png
 *.o
+*.tmp
