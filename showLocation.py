@@ -19,11 +19,11 @@ lngs = df["lng"]
 
 plt.figure(figsize=(10, 8))
 plt.scatter(lngs, lats, c='red', alpha=0.7, edgecolors='k', s=80)
-
+'''
 if len(sys.argv) < 3:
     for i, name in enumerate(df["店舗名"]):
         plt.text(lngs[i], lats[i], name, fontsize=8, fontproperties=jp_font, ha='left', va='bottom')
-
+'''
 if len(sys.argv) >= 3:
     for path in sys.argv[2:]:
         df_line = pd.read_csv(path)
