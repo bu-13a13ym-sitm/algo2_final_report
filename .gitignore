@@ -4,3 +4,4 @@ account.py
 *.png
 *.o
 *.tmp
+*.pdf

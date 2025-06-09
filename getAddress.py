@@ -1,10 +1,8 @@
 import requests as rq
-from requests.exceptions import SSLError
 from bs4 import BeautifulSoup as bs
 import urllib.parse
 import pandas as pd
 from concurrent.futures import ThreadPoolExecutor as th
-import re
 from time import sleep
 from random import randrange
 import subprocess
